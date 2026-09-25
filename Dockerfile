@@ -9,4 +9,4 @@ RUN ./mvnw clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "target/student-management-system-1.0.0.jar"]
+CMD ["sh", "-c", "java -jar target/*.jar"]
